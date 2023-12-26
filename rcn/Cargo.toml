@@ -1,0 +1,23 @@
+[package]
+name = "rcn"
+edition = "2021"
+version.workspace = true
+# authors.workspace = true
+# description.workspace = true
+# documentation.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio.workspace = true
+tokio-util.workspace = true
+tokio-stream.workspace = true
+
+tracing.workspace = true
+tracing-subscriber.workspace = true
+tracing-appender.workspace = true
+time.workspace = true
+
+anyhow.workspace = true
+thiserror.workspace = true
+

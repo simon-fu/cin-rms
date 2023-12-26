@@ -1,0 +1,45 @@
+[workspace]
+members = [
+    "rcn",
+]
+# exclude = [""]
+
+[workspace.package]
+version = "0.1.0" # alpha, beta, rc, 
+
+[profile.release-with-debug]
+# cargo run --profile=release-with-debug  --bin xxx
+# cargo build --profile=release-with-debug
+inherits = "release"
+debug = true
+# opt-level = 0
+overflow-checks = true
+
+[workspace.dependencies]
+tokio = { version = "=1.28.2", features = ["full"] }
+tokio-util = {version = "=0.7.8", features = ["full"]}
+tokio-stream = { version = "=0.1.14", features = ["sync"] }
+
+tracing = { version = "=0.1.37", features = ["max_level_trace", "release_max_level_debug"] }
+tracing-subscriber = {version = "=0.3.17", features = ["local-time", "env-filter"]}
+tracing-appender = "=0.2.2"
+time = {version = "=0.3.21", features = ["formatting", "macros"]}
+
+anyhow = "=1.0.71"
+thiserror = "=1.0.40"
+
+# futures="=0.3.28"
+# bytes = "=1.1.0"
+
+# tokio-rustls = "=0.24.1"
+# rustls = "=0.21.6"
+
+# async-trait = "=0.1.72"
+# serde = {version = "=1.0.164", features = ["rc"]}
+# serde_derive = "=1.0.164"
+# serde_json = "=1.0.65"
+# lazy_static = "=1.4.0"
+# url = "=2.4.0"
+
+
+
