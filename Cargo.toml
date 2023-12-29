@@ -28,8 +28,12 @@ time = {version = "=0.3.21", features = ["formatting", "macros"]}
 anyhow = "=1.0.71"
 thiserror = "=1.0.40"
 
+bytes = "=1.1.0"
+num_enum = "=0.7.1"
+clap = { version = "=4.4.11", features = ["derive", "env"] }
+
 # futures="=0.3.28"
-# bytes = "=1.1.0"
+
 
 # tokio-rustls = "=0.24.1"
 # rustls = "=0.21.6"

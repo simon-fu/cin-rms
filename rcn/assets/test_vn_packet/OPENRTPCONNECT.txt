@@ -1,0 +1,16 @@
+0	00 e5 00 0d 00 2d c6 c2  00 00 80 01 01 06 00 d7 	.....-..........
+16	c0 a8 09 f6 d0 57 00 00  08 00 64 00 6e 75 6c 6c 	.....W....d.null
+32	5f 63 72 79 70 74 6f 00  6e 75 6c 6c 5f 69 63 65 	_crypto.null_ice
+48	5f 66 72 61 67 00 6e 75  6c 6c 5f 69 63 65 5f 70 	_frag.null_ice_p
+64	77 64 00 6e 75 6c 6c 5f  66 69 6e 67 65 72 70 72 	wd.null_fingerpr
+80	69 6e 74 00 64 74 6c 73  5f 72 6f 6c 6c 3a 63 6c 	int.dtls_roll:cl
+96	69 65 6e 74 00 69 63 65  3a 30 00 00 00 48 32 36 	ient.ice:0...H26
+112	34 66 6d 74 70 3a 70 61  63 6b 65 74 69 7a 61 74 	4fmtp:packetizat
+128	69 6f 6e 2d 6d 6f 64 65  3d 31 3b 70 72 6f 66 69 	ion-mode=1;profi
+144	6c 65 2d 6c 65 76 65 6c  2d 69 64 3d 34 32 43 30 	le-level-id=42C0
+160	31 45 3b 73 70 72 6f 70  2d 70 61 72 61 6d 65 74 	1E;sprop-paramet
+176	65 72 2d 73 65 74 73 3d  5a 30 4c 41 48 74 6f 48 	er-sets=Z0LAHtoH
+192	67 55 53 41 65 45 41 68  55 41 3d 3d 2c 61 4d 34 	gUSAeEAhUA==,aM4
+208	38 67 41 3d 3d 00 76 69  64 65 6f 65 78 74 3a 30 	8gA==.videoext:0
+224	7c 30 7c 30 7c 30 00 2f  68 6f 6d 65 2f 6d 73 2f 	|0|0|0./home/ms/
+240	63 69 6e 2f 6d 73 63 6e  33 00                   	cin/mscn3.
