@@ -24,4 +24,5 @@ thiserror.workspace = true
 bytes.workspace = true
 num_enum.workspace = true
 clap.workspace = true
-
+futures.workspace = true
+async-trait.workspace = true
